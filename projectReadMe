@@ -26,3 +26,5 @@ VS Code Extensions:
 
 Git Integration:
 1. Download and intall git 'https://git-scm.com/'
+2. In VSCode terminal run 'git init'
+3. Test Commit
