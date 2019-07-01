@@ -26,6 +26,10 @@ VS Code Extensions:
 
 Git Integration:
 1. Download and intall git 'https://git-scm.com/'
-2. In VSCode terminal run 'git init'
-3. Test Commit
-4. Commit Check
+2. In project root directory run 'git init'
+3. Run below commands to set default properties
+	- 'git config --global user.name "<username>"'
+	- 'git config --global user.email "<email>"'
+4. Create a project in Github and follow instructions mentioned in the page
+5. In VSCode install extension 'GitLens — Git supercharged'
+6. Perform general commit > push and other actions
