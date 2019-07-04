@@ -1,9 +1,9 @@
 var basePage = require('../utilities/basePage');
-var secretData = require('../../../../../secretConfig');
+var secretConfig = require('../../../../../secretConfig');
 
 var WindowHandlePage = function() {
     this.openApplication = function() {
-        browser.get(secretData.app)
+        browser.get(secretConfig.applicationUrl);
     };
 };
 
