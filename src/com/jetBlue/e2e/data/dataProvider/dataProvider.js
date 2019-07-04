@@ -15,6 +15,7 @@ module.exports = {
 	
 	fileFormat: {
         'jpgFormat': {firstName: 'Mark7', lastName: 'Smith', formatToUpload: '../data/testFiles/jpgImage.jpg'},
-		'pngFormat': {firstName: 'Mark8', lastName: 'Smith', formatToUpload: '../data/testFiles/pngImage.png'}
+		'pngFormat': {firstName: 'Mark8', lastName: 'Smith', formatToUpload: '../data/testFiles/pngImage.png'},
+		'gifFormat': {firstName: 'Mark9', lastName: 'Smith', formatToUpload: '../data/testFiles/gifImage.gif'}
     }
 }
