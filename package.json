@@ -4,11 +4,11 @@
   "description": "E2E automation tests",
   "main": "conf.js",
   "dependencies": {
-    "protractor": "^5.4.2",
+    "fs-extra": "^8.1.0",
     "jasmine": "^3.4.0",
-    "fs-extra": "^8.0.1",
-    "jasmine-reporters": "^2.3.2",
     "jasmine-data-provider": "^2.2.0",
+    "jasmine-reporters": "^2.3.2",
+    "protractor": "^5.4.2",
     "protractor-html-reporter-2": "^1.0.4"
   },
   "scripts": {

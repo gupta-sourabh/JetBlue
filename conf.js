@@ -5,7 +5,7 @@ var fs = require('fs-extra');
 exports.config = {
 	seleniumAddress: 'http://localhost:4444/wd/hub',
 	suites: {
-		smoke: './src/com/jetBlue/e2e/specs/p2/*.js',
+		smoke: './src/com/jetBlue/e2e/specs/p3/*.js',
 	},		
 	framework : "jasmine2",
 	capabilities : {

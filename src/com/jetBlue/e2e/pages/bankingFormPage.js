@@ -20,7 +20,6 @@ var BankingFormPage = function() {
     this.addCustomerButton = locators.findLocator(['css', 'form > button']);
     this.allCustomer = locators.findLocatorAll (['repeater', 'cust in Customers | orderBy:sortType:sortReverse | filter:searchCustomer']);
 
-
     this.openApplication = function() {
         browser.get(this.url);
     };
